@@ -17,7 +17,12 @@
 
         > div {
             display: flex;
-            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            > div {
+                display: flex;
+                align-items: center;
+            }
         }
 
         & nav.links {
@@ -88,7 +93,7 @@
 
     @media (min-width: 992px) {
         > section {
-            background-color: transparent;
+            background: transparent;
             height: calc(100vh - 110px);
             justify-content: center;
             > div {
