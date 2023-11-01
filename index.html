@@ -7,6 +7,41 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 <body>
+
+    <div id="drawer">
+        <div class="overlay" data-drawer="toggle">
+
+        </div>
+        <div class="body">
+            <header>
+                <a href="/">
+                    <img class="logo" src="assets/img/logo.svg" alt="Logo-Orlando-city">
+                </a>
+                <button type="button" class="btn-close" data-drawer="close">
+                    <img src="assets/img/close.svg" alt="icon-close">
+                </button>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="#">Tickets</a></li>
+                    <li><a href="#">Schedule</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Vídeo</a></li>
+                </ul>
+            </nav>
+            <footer>
+                <a href="#" class="btn-primary-fill">Login</a>
+                <nav>
+                    <ul>
+                        <li><a class="social" href="#"><img src="assets/img/instagram.svg" height="30px" width="30px" alt="Icon-instagram"></a></li>
+                        <li><a class="social" href="#"><img src="assets/img/youtube.svg" height="30px" width="30px" alt="Icon-youtube"></a></li>
+                        <li><a class="social" href="#"><img src="assets/img/facebook-f.svg" height="30px" width="30px" alt="Icon-facebook"></a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </div>
+    </div>
+
     <div id="hero">
         <header>
             <div>
@@ -31,7 +66,7 @@
                         <li><a class="social" href="#"><img src="assets/img/facebook-f.svg" height="30px" width="30px" alt="Icon-facebook"></a></li>
                     </ul>
                 </nav>
-                <button type="button" class="btn-menu">
+                <button type="button" class="btn-menu" data-drawer="open">
                     <img src="assets/img/menu.svg" alt="icon-menu">
                 </button>
             </div>
