@@ -27,6 +27,7 @@
 
         & nav.links {
             & li a {
+                color: var(--text-color);
                 font-size: 14px;
                 padding: 3vw;
                 & :active {
