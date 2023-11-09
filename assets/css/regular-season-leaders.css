@@ -1,0 +1,30 @@
+#regular-season-leaders {
+    > div {
+        padding: 20px;
+        flex-direction: column;
+    }
+    .carousel {
+        height: 460px;
+        .carousel-item {
+            min-width: 320px;
+            max-width: 320px;
+            .leader-card {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                .leader-card-header {
+                    display: flex;
+                    flex-direction: column;
+                    >figure {
+                        flex: 1;
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+                        margin: 0;
+                        background-image: url("../img/background-leader.svg");
+                    }
+                }
+            }
+        }
+    }
+}
