@@ -1,0 +1,16 @@
+#banner-image {
+    max-height: 50vh;
+    height: 100vw;
+    width: 100%;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--text-color);
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > div {
+        font-family: 'Bebas';
+    }
+}
