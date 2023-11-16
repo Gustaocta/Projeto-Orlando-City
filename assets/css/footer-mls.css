@@ -26,6 +26,7 @@ body > footer #mls {
                 & a {
                    color: var(--text-color); 
                    text-decoration: none;
+                   font-size: 17px;
                    &:hover {
                     text-decoration: underline;
                    }
@@ -38,7 +39,7 @@ body > footer #mls {
             & p {
                 color: var(--text-color);
                 line-height: 24px;
-                font-size: 14px;
+                font-size: 18px;
             }
         }
         @media (min-width: 768px) {
