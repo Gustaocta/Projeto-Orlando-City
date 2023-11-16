@@ -13,7 +13,7 @@ body>footer {
             gap: 10px;
             color: var(--text-color);
             text-decoration: none;
-            font-size: 14px;
+            font-size: 18px;
             & img {
                 width: 15px;
                 height: 15px;
