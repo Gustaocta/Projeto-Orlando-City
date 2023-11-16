@@ -9,7 +9,7 @@ body > footer {
                 text-decoration: none;
                 color: var(--text-color);
                 padding: 10px 0px;
-                font-size: 14px;
+                font-size: 18px;
                 &:hover {
                     text-decoration: underline;
                 }
