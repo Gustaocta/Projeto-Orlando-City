@@ -15,7 +15,7 @@
         justify-content: space-between;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 41.12%, rgba(0, 0, 0, 0.00) 100%);
 
-        > div {
+        >div {
             display: flex;
             justify-content: space-between;
             width: 100%;
@@ -28,7 +28,7 @@
         & nav.links {
             & li a {
                 color: var(--text-color);
-                font-size: 14px;
+                font-size: 16px;
                 padding: 3vw;
                 & :active {
                     transform: translateY(1px);
@@ -73,11 +73,13 @@
                 font-size: 40px;
                 font-family: Bebas;
                 margin: 0;
+                text-shadow: 0px 2px 2px #333;
             }
             > p {
                 font-size: 14px;
                 font-family: Bebas;
                 margin: 0;
+                text-shadow: 0px 15px 15px #333;
             }
             .buttons {
                 display: flex;
@@ -87,6 +89,7 @@
                 > button {
                     font-family: Bebas;
                     font-size: 22px;
+                    text-shadow: 0px 10px 10px #333;
                 }
             }
         }
